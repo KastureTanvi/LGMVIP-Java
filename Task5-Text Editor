@@ -446,9 +446,7 @@ public class Notepad implements ActionListener, MenuConstants {
 		JMenu fileMenu = createMenu(fileText, KeyEvent.VK_F, mb);
 		JMenu editMenu = createMenu(editText, KeyEvent.VK_E, mb);
 		JMenu formatMenu = createMenu(formatText, KeyEvent.VK_O, mb);
-		// JMenu viewMenu = createMenu(viewText, KeyEvent.VK_V, mb);
 		JMenu helpMenu = createMenu(helpText, KeyEvent.VK_H, mb);
-
 		createMenuItem(fileNew, KeyEvent.VK_N, fileMenu, KeyEvent.VK_N, this);
 		createMenuItem(fileOpen, KeyEvent.VK_O, fileMenu, KeyEvent.VK_O, this);
 		createMenuItem(fileSave, KeyEvent.VK_S, fileMenu, KeyEvent.VK_S, this);
